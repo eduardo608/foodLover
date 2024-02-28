@@ -1,1 +1,93 @@
-@import url(style.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #323239;
+}
+img{
+    opacity: 2;
+}
+section{
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;  
+    justify-content: center;
+    inset: 0;
+    margin: 200px 200px 200px 200px;
+    margin-left: 450px;
+}
+
+section img .class{
+    background-image: url(storage/img/placeYourImageHere0.png);
+}
+.class{
+    display: flex;
+    justify-content: center ;
+    width: 900px;
+    opacity: 0.9;
+}
+header{
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+    margin: 40px 60px 40px 60px;
+    
+
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    display: flex;
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: black;
+    align-items: center;
+    padding-top: 20px;
+    }
+.menu1{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+    
+}   
+.menu1 .o{
+    color: #e58f00;
+}
+.menu2{
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+
+
+}
+.menu2 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
